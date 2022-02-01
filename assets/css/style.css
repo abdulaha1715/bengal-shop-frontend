@@ -9,3 +9,18 @@ body {
   @apply mx-auto;
   max-width: 1400px;
 }
+
+.font-size-32 {
+  font-size: 32px;
+}
+
+.bs-button-bg {
+  background-color: #4F4F4F;
+}
+
+.bs-icon-box {
+  width: 60px;
+  height: 60px;
+}
+
+
