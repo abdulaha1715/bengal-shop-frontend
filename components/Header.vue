@@ -2,9 +2,7 @@
   <div>
     <div class="container">
       <div class="py-6 flex justify-between items-center">
-        <nuxt-link to="/" class="flex font-size-32 font-medium items-center">
-          <img src="~/assets/img/logo.png" alt="logo"> Bengal shop
-        </nuxt-link>
+        <Logo />
 
         <div class="w-96">
           <div class="border border-gray-100 p-1 flex rounded-full items-center">
@@ -65,7 +63,9 @@
 </template>
 
 <script>
+import Logo from './Logo.vue'
 export default {
+  components: { Logo },
   name: 'Header'
 }
 </script>
