@@ -3,7 +3,7 @@
     <div class="container">
       <div class="py-6 flex justify-between items-center">
         <nuxt-link to="/" class="flex font-size-32 font-medium items-center">
-          <img src="~/assets/img/logo.png" alt=""> Bengal shop
+          <img src="~/assets/img/logo.png" alt="logo"> Bengal shop
         </nuxt-link>
 
         <div class="w-96">
@@ -28,7 +28,36 @@
             <span class="bs-icon-box rounded-full hover:bg-gray-200 inline-block flex items-center justify-center"><img src="~/assets/img/user.png" alt="user"></span><span>Account</span>
           </nuxt-link>
         </div>
+      </div>
+      <div class="flex items-center">
+        <div class="w-96">
+          <div class="bg-dark-green-bg flex rounded-full px-4 py-2 cursor-pointer items-center">
+            <div class="min-w-max">
+              <img src="~/assets/img/menu-right.png" alt="menu-right">
+            </div>
+            <div class="w-full text-center px-6 text-white">
+              All Categories
+            </div>
+            <div class="mix-w-max">
+              <img src="~/assets/img/chevron-down.png" alt="chevron-down">
+            </div>
+          </div>
         </div>
+
+        <div class="w-full">
+          <ul class="flex justify-center">
+            <li><nuxt-link class="p-4" to="/">Home</nuxt-link></li>
+            <li><nuxt-link class="p-4" to="/">Categories</nuxt-link></li>
+            <li><nuxt-link class="p-4" to="/">About</nuxt-link></li>
+            <li><nuxt-link class="p-4" to="/">Contact</nuxt-link></li>
+            <li><nuxt-link class="p-4" to="/">FAQs</nuxt-link></li>
+            <li><nuxt-link class="p-4" to="/">Offers</nuxt-link></li>
+          </ul>
+        </div>
+
+        <nuxt-link to="/" class="flex bg-dark-orange-color min-w-max">
+          <img src="~/assets/img/u_percentage.png"  class="mr-3" alt="percentage"> Special Offers!
+        </nuxt-link>
       </div>
     </div>
 

@@ -23,5 +23,23 @@ body {
   height: 60px;
 }
 
+.bg-dark-orange-bg {
+  background-color: #FF5C00;
+}
 
+.bg-dark-orange-color {
+  color: #FF5C00;
+}
+
+.bg-dark-green-bg {
+  background-color: #26ae60;
+}
+
+.bg-ligt-green-bg {
+  background-color: #ebfaeb;
+}
+
+.bg-dark-green-color {
+  color: #26ae60;
+}
 
